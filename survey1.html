@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        .colo{
+            background-color: green;
+        }
+        .cen{
+            background-color: rgb(46, 166, 230);
+            padding: 10 10 10 10;
+        
+        }
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .red{
+            background-color: green;
+            text-align: center;
+            color: black;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body class="colo">
+<div class="cen">
+    <form>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="fav" placeholder="Enter Your Name"><br><br>
+    <label for="mail">Email</label><br>
+    <input type="email" id="mail" name="fav" placeholder="Enter Your Email"><br><br>
+    <label for="age">Age</label><br>
+    <input type="number" id="age" name="for" placeholder="Enter your age"><br><br>
+    <label for="stu">Which ooption best describes you?</label><br>
+    <select id="stu">
+        <option label="Student">Student</option>
+        <option label="Teacher">Teacher</option>
+        <option label="Employee">Employee</option>
+        <option label="Other">Other</option>
+    </select><br>
+    <label for="rr">Would you recommed to a friend?</label><br>
+    <input type="radio" id="rr" name="yes" value="Yes">
+    <label for="rr">Yes</label><br>
+    <input type="radio" id="rr" name="yes" value="No">
+    <label for="rr">No</label><br>
+    <input type="radio" id="rr" name="yes" value="Maybe">
+    <label for="rr">Maybe</label><br><br>
+    <label for="cc">Languages and Frameworks known(Check all that apply)</label><br>
+    <input type="checkbox" id="cc" name="dd" value="C">
+    <label for="cc">C</label><br>
+    <input type="checkbox" id="cc" name="dd" value="C++">
+    <label for="cc">C++</label><br>
+    <input type="checkbox" id="cc" name="dd" value="C#">
+    <label for="cc">C#</label><br>
+    <input type="checkbox" id="cc" name="dd" value="Java">
+    <label for="checkbox">Java</label><br>
+    <input type="checkbox" id="cc" name="dd" value="Python">
+    <label for="cc">Python</label><br>
+    <input type="checkbox" id="cc" name="dd" value="JavaScript">
+    <label for="cc">JavaScript</label><br>
+    <input type="checkbox" id="cc" name="dd" value="ReactJs">
+    <label for="cc">ReactJs</label><br>
+    <input type="checkbox" id="cc" name="dd" value="Angular">
+    <label for="cc">Django</label><br>
+    <input type="checkbox" id="cc" name="dd" value="Spring">
+    <label for="cc">Spring</label><br><br>
+    <label for="cc">Any comments or suggestions</label><br>
+    <input type="message" id="cc"><br><br>
+<div class="red">
+    <button>Submit</button>
+</div>
+</div>
+</form>
+</body>
+</html>
